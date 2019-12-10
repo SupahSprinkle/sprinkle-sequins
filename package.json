@@ -1,10 +1,12 @@
 {
-  "name": "sprinkle-sequins",
+  "private": false,
+  "name": "vue-sprinkle-sequins",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vue serve VueSprinkleSequins.vue",
+    "build": "bili --name index --plugin vue --vue.css false"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/SupahSprinkle/sprinkle-sequins/issues"
   },
-  "homepage": "https://github.com/SupahSprinkle/sprinkle-sequins#readme"
+  "homepage": "https://github.com/SupahSprinkle/sprinkle-sequins#readme",
+  "devDependencies": {
+    "bili": "^4.8.1",
+    "rollup-plugin-vue": "^5.1.4",
+    "vue-template-compiler": "^2.6.10"
+  }
 }

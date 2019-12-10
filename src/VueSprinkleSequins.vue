@@ -4,7 +4,7 @@
 
 <script>
 	export default {
-        name: "ColoredLines",
+        name: "VueSprinkleSequins",
 		props: {
 			amount: {
 				type: Number,
