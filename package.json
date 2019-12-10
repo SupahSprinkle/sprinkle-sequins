@@ -1,0 +1,19 @@
+{
+  "name": "sprinkle-sequins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SupahSprinkle/sprinkle-sequins.git"
+  },
+  "author": "Alisha Sprinkle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SupahSprinkle/sprinkle-sequins/issues"
+  },
+  "homepage": "https://github.com/SupahSprinkle/sprinkle-sequins#readme"
+}
